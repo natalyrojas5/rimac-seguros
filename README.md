@@ -15,7 +15,7 @@
 
 ## Endpoints
 
-- `api/user (POST)` : Uso de api para obtener datos (nombres) de usuario a través de su RUC y DNI
+- `api/user (POST)` : Uso de api para obtener datos (nombres) de usuario a través de su RUC / DNI
 
 ## Instalación
 
@@ -30,3 +30,23 @@ npm i
 ```
 npm run dev
 ```
+
+## Casos Probados
+
+### Usuario con DNI / RUC
+
+- Se muestra nombres de persona dueña del RUC/DNI en la vista `dashboard/planes-cobertura`
+  ![Planes](./screenshots/screenshot-1.png)
+
+### Usuario ingresa a vistar Planes y Cobertura / Resumen sin ingresar datos
+
+- En caso el usuario no ingrese los datos en el cotizador (formulario) le mostrara un mensaje de error y botón para redirigirlo al cotizador
+  ![Error](./screenshots/screenshot-2.png)
+
+### Validaciones en Cotizador
+
+- Se valida número de documento sea valido (mediante API)
+- Se valida que los campos no estén vacios
+
+  ![Validaciones - Form](./screenshots/screenshot-3.png)
+  ![Validaciones - Form](./screenshots/screenshot-4.png)
