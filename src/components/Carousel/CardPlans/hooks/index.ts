@@ -14,6 +14,13 @@ export const useCarouselCardPlans = () => {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
+    setMQuery({
+      matches: window?.innerWidth > 768 ? true : false,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
     let mediaQuery = window?.matchMedia("(max-width: 768px)");
     mediaQuery.addEventListener("change", (e) =>
       setMQuery({ matches: e.matches })

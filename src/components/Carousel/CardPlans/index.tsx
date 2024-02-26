@@ -14,7 +14,7 @@ export const CarouselCardPlans = () => {
     <section className="mt-8 ">
       {hasPlans && hasCurrentPlan &&
         <Carousel
-          orientation={mQuery.matches ? "vertical" : "horizontal"}
+          orientation={!mQuery.matches ? "vertical" : "horizontal"}
           verticalViewPortHeight="760px"
           responsiveOptions={responsiveOptions}
           value={plans}

@@ -10,7 +10,7 @@ export const ViewResumen = () => {
     <LayoutPrivate>
       <Steps />
       <GoBack />
-      <div className="container-cus py-5 px-16 mb-8">
+      <div className="container-cus py-5  px-4 lg:px-16 mb-8">
         <h1 className="text-4xl font-semibold mb-8">Resumen del seguro </h1>
         <CardResumen />
         <Button
