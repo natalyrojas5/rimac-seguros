@@ -5,7 +5,7 @@
 - [Figma](https://www.figma.com/file/KGftIKxhcVm41kTKMsfTh2/Frontend-Challenge-2023?type=design&node-id=12%3A156559&mode=design&t=KfEDYSK5G58rqxia-1)
 - [Web](https://rimac-seguros-gamma.vercel.app/)
 
-## Technologies used
+## Tecnologías usadas
 
 - React.js with Next.js
 - Typescript
@@ -16,7 +16,7 @@
 
 ## Endpoints
 
-- `api/user (POST)` : Uso de api para obtener datos (nombres) de usuario a través de su RUC / DNI
+- `api/user (POST)` : Api para obtener datos (nombres) de usuario a través de su RUC / DNI
 
 ## Instalación
 
