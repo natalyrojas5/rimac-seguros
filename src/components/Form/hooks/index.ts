@@ -77,6 +77,10 @@ export const useForm = () => {
         phone: fields.phone.value,
         type_doc: fields.type_doc.value,
         isLogged: true,
+        plan: {
+          name: "",
+          price: "",
+        },
       };
 
       if (fields.type_doc.value === "dni") {
