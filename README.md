@@ -54,4 +54,10 @@ npm run dev
   ![Validaciones - Form](./screenshots/screenshot-3.png)
   ![Validaciones - Form](./screenshots/screenshot-4.png)
 
-  ## Perfomace Tests
+## Perfomace Tests
+
+![Perfomace](./screenshots/screenshot-performace.png)
+
+- [Tools Pingdom](https://tools.pingdom.com/)
+
+- [PageSpeed Insights](https://pagespeed.web.dev/)
