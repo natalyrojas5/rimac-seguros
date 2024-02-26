@@ -8,7 +8,7 @@ export const CardResumen = () => {
   const { names, plan, nro_doc, phone, type_doc } = useResumen();
 
   return (
-    <aside className="shadow-card p-6 rounded-lg">
+    <aside className="shadow-card p-6 rounded-2xl">
       <p className="text-c-neutral-600 text-sm font-semibold uppercase mb-6">Precios calculados para:</p>
       <div className="mb-4 flex gap-3 items-center">
         <Image src={iconFamily} alt="Icono Familia" width={30} height={30} />

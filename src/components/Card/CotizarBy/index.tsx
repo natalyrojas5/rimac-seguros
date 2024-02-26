@@ -12,7 +12,7 @@ export const CardCotizarBy = ({ title, description, icon, name }: CardCotizarByP
   const { current } = useCotizarBy()
 
   return (
-    <aside className={`card__cotizarBy rounded-lg p-6 shadow-card ${current === name ? "border-2 border-black" : ""}`}>
+    <aside className={`card__cotizarBy rounded-2xl p-6 shadow-card ${current === name ? "border-2 border-black" : ""}`}>
       <div className="flex items-center justify-end card__cotizarBy__radiobtn">
         <RadioBtn value={name} />
       </div>

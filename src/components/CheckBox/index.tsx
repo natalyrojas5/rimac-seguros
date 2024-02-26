@@ -9,7 +9,7 @@ export const CheckBox = ({ textLabel, name, checked, isValid, onChange }: Checkb
         onChange={onChange}
         type="checkbox"
         name={name}
-        className={`checkbox checked:border-black w-6 h-6 rounded-md cursor-pointer border-3 ${isValid ? "border-gray-400" : "border-red-400"}`} />
+        className={` checkbox checked:border-black w-6 h-6 rounded-md cursor-pointer border-3 ${isValid ? "border-gray-400" : "border-red-400"}`} />
       <label className={`ms-2 text-sm font-normal ${isValid ? "text-gray-900" : "text-red-400"}`}>
         {textLabel}
       </label>

@@ -18,7 +18,7 @@ export const CarouselCardPlans = () => {
           verticalViewPortHeight="760px"
           responsiveOptions={responsiveOptions}
           value={plans}
-          numVisible={mQuery.matches ? 1 : 3}
+          numVisible={!mQuery.matches ? 1 : 3}
           itemTemplate={CardPlan}
         />
       }

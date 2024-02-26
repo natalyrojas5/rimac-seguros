@@ -9,7 +9,7 @@ export const CardPlan = ({ name, description, icon, isRecommeded, price }: CardP
   const { isCurrentPlanPeople, currentPrice, selectPlan } = useCardPlan(price)
 
   return (
-    <aside className="shadow-card rounded-lg p-6 h-full lg:ms-5">
+    <aside className="shadow-card rounded-2xl p-6 h-full lg:ms-5">
       <div className="flex items-center" style={{ height: "3rem" }}>
         {isRecommeded && <p className="bg-c-green p-1 px-3 font-semibold rounded-md text-sm">Plan recomendado</p>}
       </div>
