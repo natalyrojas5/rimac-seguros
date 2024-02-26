@@ -89,10 +89,8 @@ export const useForm = () => {
         payload.names = responseJSON.razonSocial;
       }
 
-      dispatch({
-        type: TYPES.SET_USER,
-        payload,
-      });
+      dispatch({ type: TYPES.SET_USER, payload });
+      dispatch({ type: TYPES.SET_PLAN, payload: "" });
 
       if (typeof localStorage === "undefined") return;
       localStorage.setItem("user", JSON.stringify(payload));
