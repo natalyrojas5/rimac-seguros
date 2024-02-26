@@ -16,7 +16,7 @@
 
 ## Endpoints
 
-- `api/user (POST)` : Api para obtener datos (nombres) de usuario a través de su RUC / DNI
+- `api/user (POST)` : Se obtiene nombres de usuario a través de su RUC / DNI
 
 ## Instalación
 
