@@ -11,7 +11,7 @@ export const ViewResumen = () => {
       <Steps />
       <GoBack />
       <div className="container-cus py-5  px-4 lg:px-16 mb-8">
-        <h1 className="text-4xl font-semibold mb-8">Resumen del seguro </h1>
+        <h1 className="lg:text-2xl text-3xl font-semibold mb-8">Resumen del seguro </h1>
         <CardResumen />
         <Button
           type="button"
