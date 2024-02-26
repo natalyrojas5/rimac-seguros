@@ -3,6 +3,7 @@
 ## Enlaces
 
 - [Figma](https://www.figma.com/file/KGftIKxhcVm41kTKMsfTh2/Frontend-Challenge-2023?type=design&node-id=12%3A156559&mode=design&t=KfEDYSK5G58rqxia-1)
+- [Web](https://rimac-seguros-gamma.vercel.app/)
 
 ## Technologies used
 
@@ -47,7 +48,7 @@ npm run dev
 
 ### Validaciones en Cotizador
 
-- Se valida número de documento  (mediante API)
+- Se valida número de documento (mediante API)
 - Se valida que los campos no estén vacios
 
   ![Validaciones - Form](./screenshots/screenshot-3.png)

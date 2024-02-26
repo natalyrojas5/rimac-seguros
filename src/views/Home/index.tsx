@@ -19,7 +19,6 @@ export const ViewHome = () => {
           height={560}
           alt="Familia"
           className="hidden lg:block w-full"
-          priority
         />
         <Form />
       </section>
