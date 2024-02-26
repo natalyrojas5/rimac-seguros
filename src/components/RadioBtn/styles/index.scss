@@ -1,0 +1,13 @@
+.radio-btn {
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-width: 0.125rem;
+}
+
+.radio-btn:checked {
+  background-image: url("../../../assets/icons/icon-check.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #389e0d;
+}

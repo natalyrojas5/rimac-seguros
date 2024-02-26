@@ -1,0 +1,11 @@
+@import "../mixins/class";
+@import "../variables/colors";
+
+@include color("primary", $-primary);
+@include color("blue-berry", $-blue-berry);
+@include color("neutral-300", $-neutral-300);
+@include color("neutral-400", $-neutral-400);
+@include color("neutral-500", $-neutral-500);
+@include color("neutral-600", $-neutral-600);
+@include color("red", $-red, $-white);
+@include color("green", $-green);

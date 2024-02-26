@@ -1,0 +1,13 @@
+.checkbox {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 0.125rem;
+}
+
+.checkbox:checked {
+  background-image: url("../../../assets/icons/icon-check.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000;
+}

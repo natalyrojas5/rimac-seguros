@@ -1,0 +1,10 @@
+.p-carousel-items-container {
+  margin: 1rem 0 4rem 0;
+  @media (max-width: 900px) {
+    padding: 1rem;
+  }
+}
+
+.p-carousel.p-component.p-carousel-vertical {
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,11 @@
+.ly {
+  &-public {
+    background-image: url("../../assets/images/bg-blur-pink.png"),
+      url("../../assets/images/blur-green.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
+    @media (max-width: 900px) {
+      background-position: 0% 200%, 100% -220%;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.header__title {
+  max-width: 450px;
+  width: 100%;
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
